@@ -1,0 +1,32 @@
+{
+  "name": "webpack-babel-boilerplate",
+  "version": "0.0.1",
+  "description": "webpack+babel",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --color",
+    "build": "cross-env NODE_ENV=pro ./node_modules/webpack/bin/webpack.js --color",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenlyau/webpack-babel-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "es6",
+    "es7"
+  ],
+  "author": "kenlyau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenlyau/webpack-babel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/kenlyau/webpack-babel-boilerplate#readme",
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
