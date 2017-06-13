@@ -1,1 +1,3 @@
-console.log('success');
+import app from './app.js'
+
+app.run();
