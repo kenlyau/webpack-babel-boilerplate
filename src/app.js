@@ -1,6 +1,6 @@
 export default {
   run(){
-    [1,2,3].map(item => console.log(item))
-    console.log('success!**')
+    console.log('success!**');
+    return true;
   }
 }

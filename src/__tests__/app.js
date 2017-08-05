@@ -1,3 +1,5 @@
+import app from '../app';
+
 test('test demo', () => {
-  expect(true).toBe(true);
+  expect(app.run()).toBe(true);
 });
